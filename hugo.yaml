@@ -52,10 +52,10 @@ params:
       safari_pinned_tab: "favicon.png"
   # 评论的设置
   giscus:
-    repo: "Glac1er-M/GlacierM"
-    repoId: "R_kgDONjlTDw"
+    repo: "Glac1er-M/GlacierUnderSea"
+    repoId: "R_kgDONjwadA"
     category: "Announcements"
-    categoryId: "DIC_kwDONjlTD84Cll9f"
+    categoryId: "DIC_kwDONjwadM4Clmer"
     mapping: "pathname"
     strict: "0"
     reactionsEnabled: "1"
