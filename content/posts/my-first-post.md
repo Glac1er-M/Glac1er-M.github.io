@@ -3,7 +3,7 @@ date = '2024-12-29T23:58:06+08:00'
 draft = false
 title = '扣1送PSQ帅照'
 +++
-
+![这是图片](https://i.postimg.cc/vThyyVQL/image.png "PSQ")
 ## Hello World!
 $$a^2+b^2=\mu ^2$$
 
