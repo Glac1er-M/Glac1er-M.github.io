@@ -83,7 +83,7 @@ params:
       url: "https://x.com/Denotedestiny"
     - name: RSS
       title: RSS订阅
-      url: "https://glac1er-m.github.io/GlacierUnderSea/index.xml"
+      url: "https://glac1er-m.github.io/index.xml"
   assets:
     
       favicon: "favicon.png"
