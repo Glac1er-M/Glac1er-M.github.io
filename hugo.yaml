@@ -1,4 +1,4 @@
-baseURL: 'https://glac1er-m.github.io/' # 主站的 URL
+baseURL: 'http://glac1er-m.github.io/GlacierUnderSea/' # 主站的 URL
 title: Glacier UnderSea # 站点标题
 copyright: "[©2024 Glacier]()" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
@@ -45,7 +45,7 @@ languages:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Sonny Calcr
+  author: Glacier
   defaultTheme: dark # 默认是暗色背景
   ShowShareButtons: false # 关闭分享的按钮
   ShowReadingTime: true # 展示预估的阅读时长
@@ -82,8 +82,8 @@ params:
       title: X
       url: "https://x.com/Denotedestiny"
     - name: RSS
-      title: RSS
-      url: "https://x.com/Denotedestiny"
+      title: RSS订阅
+      url: "https://glac1er-m.github.io/GlacierUnderSea/index.xml"
   assets:
     
       favicon: "favicon.png"
