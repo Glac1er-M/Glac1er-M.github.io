@@ -86,11 +86,11 @@ params:
       url: "https://glac1er-m.github.io/index.xml"
   assets:
     
-      favicon: "favicon.png"
-      favicon16x16: "favicon.png"
-      favicon32x32: "favicon.png"
-      apple_touch_icon: "favicon.png"
-      safari_pinned_tab: "favicon.png"
+      favicon: "./static/favicon.png"
+      favicon16x16: "./static/favicon.png"
+      favicon32x32: "./static/favicon.png"
+      apple_touch_icon: "./static/favicon.png"
+      safari_pinned_tab: "./static/favicon.png"
       disableHLJS: true
   # 评论的设置
   giscus:
