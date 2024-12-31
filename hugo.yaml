@@ -84,7 +84,7 @@ params:
       url: "https://github.com/Glac1er-M"
     - name: email
       title: E-mail
-      url: "martinlynn000@gmail.com"
+      url: "mailto:martinlynn000@gmail.com"
     - name: RSS
       title: RSS订阅
       url: "https://glac1er.top/index.xml"
