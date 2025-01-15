@@ -96,8 +96,20 @@ params:
       safari_pinned_tab: "img/favicon.png"
       disableHLJS: true
   # 评论的设置
-  twikoo:
-      version: 1.6.41 // 这个版本号要自己手动修改，和twikoo的版本号要对得上
+  giscus:
+    repo: "Glac1er-M/GlacierUnderSea"
+    repoId: "R_kgDONjwadA"
+    category: "Announcements"
+    categoryId: "DIC_kwDONjwadM4Clmer"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    lightTheme: "light"
+    darkTheme: "dark"
+    lang: "zh-CN"
+    crossorigin: "anonymous"
   # 搜索
   fuseOpts:
       isCaseSensitive: false # 是否大小写敏感

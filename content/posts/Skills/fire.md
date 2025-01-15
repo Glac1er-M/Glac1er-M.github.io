@@ -1,7 +1,7 @@
 ---
-title: "Test1"
-date: 2024-12-31T16:46:41+08:00
-lastmod: 2024-12-31T16:46:41+08:00
+title: "Fire"
+date: 2025-01-15T11:55:17+08:00
+lastmod: 2025-01-15T11:55:17+08:00
 author: ["Glacier"]
 
 categories:
@@ -16,8 +16,8 @@ keywords:
 - word 1
 - word 2
 
-description: "" # 文章描述，与搜索优化相关
-summary: "" # 文章简单描述，会展示在主页
+description: "123123" # 文章描述，与搜索优化相关
+summary: "123123" # 文章简单描述，会展示在主页
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
 draft: false # 是否为草稿
@@ -31,15 +31,10 @@ searchHidden: false # 该页面可以被搜索到
 showbreadcrumbs: true #顶部显示当前路径
 mermaid: true
 cover:
-    image: ""
+    image: "img/night.png"
     caption: ""
     alt: ""
     relative: false
 ---
-# 1
-# 2
-# 3
-## 4
-## 5
-### 6
+
 <!-- more -->
