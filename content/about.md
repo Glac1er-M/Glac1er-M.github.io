@@ -54,7 +54,7 @@ cover:
 
 ### 与我联系
 
-我的博客内容开通了评论区，可惜目前只能使用GitHub进行评论，如果你对我写的内容有任何想法却没有GitHub，或者只是想联系我，欢迎通过主页的Email与我联系。  
+我的博客内容开通了评论区，目前部署了Twikoo作为评论系统，你可以通过邮箱+昵称的方式留下评论，也非常欢迎通过主页的Email与我联系。  
 
 本站采取[署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)许可。不同地区的区别见[知识共享许可协议文本](https://creativecommons.net.cn/licenses/meet-the-licenses/)。  
 

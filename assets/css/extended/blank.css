@@ -78,24 +78,6 @@ body {
     color: var(--secondary);
 }
 
-img {
-    opacity: 1;
-    border-radius: 10px;
-    border: 1px solid var(--border);
-}
-
-.dark img {
-    opacity: 0.8;
-    border: 1px solid var(--border);
-}
-
-img:active {
-    transform: scale(1.25, 1.25);
-    opacity: 1;
-    z-index: 999;
-    border: 1px solid var(--border);
-}
-
 @media screen and (min-width: 768px) {
     ::-webkit-scrollbar {
         width: 13px;
@@ -167,4 +149,74 @@ img:active {
 /*首页button*/
 .buttons {
     max-width: 100%;
+}
+.toc {
+    margin: 0 2px 40px 2px;
+    border: 1px solid var(--border);
+    background: var(--entry);
+    border-radius: var(--radius);
+    padding: 0.4em;
+}
+
+.toc-container.wide {
+    position: absolute;
+    height: 100%;
+    border-right: 1px solid var(--border);
+    left: calc((var(--toc-width) + var(--gap)) * -1);
+    top: calc(var(--gap) * 2);
+    width: var(--toc-width);
+}
+
+.wide .toc {
+    position: sticky;
+    top: var(--gap);
+    border: unset;
+    background: unset;
+    border-radius: unset;
+    width: 100%;
+    margin: 0 2px 40px 2px;
+}
+
+.toc details summary {
+    cursor: zoom-in;
+    margin-inline-start: 20px;
+    padding: 12px 0;
+}
+
+.toc details[open] summary {
+    font-weight: 500;
+}
+
+.toc-container.wide .toc .inner {
+    margin: 0;
+}
+
+.active {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.toc ul {
+    list-style-type: circle;
+}
+
+.toc .inner {
+    margin: 0 0 0 20px;
+    padding: 0px 15px 15px 20px;
+    font-size: 16px;
+}
+
+.toc li ul {
+    margin-inline-start: calc(var(--gap) * 0.5);
+    list-style-type: none;
+}
+
+.toc li {
+    list-style: none;
+    font-size: 0.95rem;
+    padding-bottom: 5px;
+}
+
+.toc li a:hover {
+    color: var(--secondary);
 }
