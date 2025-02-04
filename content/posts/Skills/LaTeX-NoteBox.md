@@ -44,7 +44,7 @@ cover:
 ```
 效果如下
 [![image.png](https://i.postimg.cc/Kjdcv2C4/image.png)](https://postimg.cc/H891BfYC)
-在LaTeX中，通过tcolorbox宏的帮助，我们也可以实现类似的效果
+在$\LaTeX$中，通过```tcolorbox```宏的帮助，我们也可以实现类似的效果
 下附代码与使用样例
 ```LaTeX
 \documentclass{article}
