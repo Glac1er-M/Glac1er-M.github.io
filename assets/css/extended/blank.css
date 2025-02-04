@@ -4,25 +4,6 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
-:root {
-    --footer-height: 40px;
-    /*--content-gap: 20px;*/
-    /*--content: rgb(80, 80, 80);*/
-    /*--hljs-bg: rgb(35, 35, 35);*/
-    --hljs-bg: rgb(44, 44, 44);
-    /*--code-bg: rgb(235, 235, 235);*/
-    --code-bg: rgb(240, 240, 240);
-    --code-bg-border: rgb(200, 200, 200);
-    --black: rgb(0, 0, 0);
-    --white: rgb(255, 255, 255);
-    --tag: rgb(235, 235, 235);
-
-    --nav-width: 1300px;
-    /*--nav-width: 1024px;*/
-    --article-width: 650px;
-    --toc-width: 300px;
-}
-
 .main {
     max-width: calc(var(--main-width) + var(--gap) * 5);
 }
@@ -219,4 +200,11 @@ body {
 
 .toc li a:hover {
     color: var(--secondary);
+}
+
+.post-content pre,
+code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.2;
 }
